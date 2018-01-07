@@ -3,7 +3,9 @@
 int main()
 {
 	long int i;
+	printf("input:");
 	scanf("%ld",&i);
+	printf("output:");
 	if(i<=0.0)
 	{
 		if(i==0.0)
