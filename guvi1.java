@@ -10,6 +10,10 @@ class guvi1
             System.out.print("vowel");
             
         }
+        else if(!(Character.isLetter(c.charAt(0))))
+        {
+            System.out.print("invalid");
+        }
         else
         {
             System.out.print("consonant");
